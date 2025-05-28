@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>configbot</name>
+  <version>0.0.1</version>
+  <description>Configbot service package</description>
+  <maintainer email="rohitdwivedula@utexas.edu">Rohit Dwivedula</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <depend>std_msgs</depend>
+  <depend>rospy</depend>
+</package>
